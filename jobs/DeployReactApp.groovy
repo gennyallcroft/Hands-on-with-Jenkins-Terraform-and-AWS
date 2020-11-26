@@ -19,8 +19,8 @@ pipelineJob("Deploy-React-App"){
         git {
           branch("master")
           remote {
-            credentials("${gennyallcroft}")
-            url("${https://github.com/gennyallcroft/Hands-on-with-Jenkins-Terraform-and-AWS.git}")
+            credentials("${GIT_USER}")
+            url("${GIT_URL}")
           }
         }
       }

@@ -11,7 +11,7 @@ pipelineJob("Deploy-React-App"){
         }
     }
     parameters {
-      stringParam("dove", defaultValue = "changeme", description = "Your unique animal identifier for this playground!")
+      stringParam("UNIQUE_ANIMAL_IDENTIFIER", defaultValue = "dove", description = "Your unique animal identifier for this playground!")
     }
     definition {
     cpsScm {
